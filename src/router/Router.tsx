@@ -1,12 +1,12 @@
-import React from 'react';
-import { HashRouter, Route, Link } from 'react-router-dom';
-import Home from '../components/day10/Home/Home';
-import About from '../components/day10/About/About';
-import Blog from '../components/day10/Blog/Blog';
+import React from "react";
+import { HashRouter, Route, Link } from "react-router-dom";
+import Home from "../components/day10/Home/Home";
+import About from "../components/day10/About/About";
+import Blog from "../components/day10/Blog/Blog";
 
 export default function Router(): JSX.Element {
   return (
-    <HashRouter>
+    <HashRouter basename="/">
       <div>
         <ul>
           <li>
